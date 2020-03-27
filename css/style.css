@@ -149,7 +149,7 @@ body {
     content: '';
     width: 30px;
     height: 30px;
-    background-image: url(./img/play.svg);
+    background-image: url(/img/play.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-right: 10px;
@@ -304,6 +304,16 @@ body {
         max-width: 960px;
     }
 
+    .play:before {
+        content: '';
+        width: 30px;
+        height: 30px;
+        background-image: url(/img/play.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: 10px;
+    }
+
     .logo {
         font-style: normal;
         font-weight: 900;
@@ -331,6 +341,16 @@ body {
         background-repeat: no-repeat;
         background-position: top center;
         background-size: auto;
+    }
+
+    .play:before {
+        content: '';
+        width: 30px;
+        height: 30px;
+        background-image: url(/img/play.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: 10px;
     }
 
     .tabs {
@@ -383,6 +403,16 @@ body {
     .tabs-content {
         margin-right: 0;
     }
+
+    .play:before {
+        content: '';
+        width: 30px;
+        height: 30px;
+        background-image: url(/img/play.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 578px) {
@@ -427,6 +457,16 @@ body {
     .play {
         flex-basis: 100%;
         margin-top: 10%;
+    }
+
+    .play:before {
+        content: '';
+        width: 30px;
+        height: 30px;
+        background-image: url(/img/play.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: 10px;
     }
 
     .short-info {
